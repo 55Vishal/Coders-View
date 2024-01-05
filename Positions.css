@@ -10,6 +10,25 @@ body{
     padding: 10px; 
     border-radius: 15px;
 }
+.banner{
+    position: sticky;
+    top: 0;
+    width: 270px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid orange;
+    background-color: orange;
+    color: white;  
+}
+.banner-title{
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.banner-desc{
+    font-size: 14px;
+    margin: 0;
+}
 .decs{
     font-size: 14px;
     font-weight: 500px;
@@ -28,4 +47,17 @@ border: none;
 position: fixed;
 bottom: 40px;
 right: 40px;
+}
+.card-header{
+    position: relative;
+}
+.best{
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255, 237, 190);
+    color: rgb(126, 91, 5);
+    padding: 3px 12px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 14px;
 }
